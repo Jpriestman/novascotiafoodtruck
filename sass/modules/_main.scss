@@ -1,0 +1,174 @@
+* { border: 0; padding: 0; margin: 0; }
+
+html { position: relative; min-height: 100%; }
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	margin-bottom: 100px;
+}
+
+br {
+	margin-top: 5px;
+}
+
+h1 {
+font-family: 'Open Sans', sans-serif;
+font-size: 35pt;
+font-weight: 700;
+color: #fff;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35pt;
+	font-weight: 700;
+	color: $light-blue;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20pt;
+	font-weight: 400;
+	color: $dark-blue;
+}
+
+h4 {
+font-family: 'Open Sans', sans-serif;
+font-size: 18pt;
+font-weight: 400;
+color: $dark-blue;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 35pt;
+	font-weight: 700;
+	color: $light-blue;
+	text-align: center;
+}
+
+
+p {
+	margin-top: 20px;
+  }
+
+
+hr {
+	display: block;
+	max-width: 80px;
+	left: 0;
+	margin-left: 5px;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #1D8DC0;
+  }
+
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+ }
+
+.hero {
+	width: 100%;
+}
+
+.imageHero {
+	position: relative;
+}
+
+.hoverTxt {
+ position: absolute;
+ z-index: 10;
+}
+
+.bgDark {
+	background-color: $dark-blue;
+}
+
+.bgLight {
+	background-color: $light-blue;
+}
+
+.bgWhite {
+	background-color: #fff;
+}
+
+.whoWe {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.truckOptions {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.howItWorks {
+	padding: 20px;
+
+	hr {
+		display: block;
+		max-width: 80px;
+		margin: 0 auto;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+		border-style: solid;
+		border-width: 4px;
+		border-color: #1D8DC0;
+	  }
+}
+
+.itWorks {
+	text-align: center;
+}
+
+.step {
+	padding: 40px;
+	display: inline-block;
+
+	img {
+		width: 80%;
+		padding: 10px;
+		margin-bottom: 40px;
+	}
+}
+
+.butWidth {
+	padding: 30px;
+	justify-content: center;
+}
+
+.foodOptions {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+
+	p {
+		color: $dark-blue;
+	}
+}
+
+.conForm {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.form {
+
+
+	p {
+		color: #fff;
+	}
+}

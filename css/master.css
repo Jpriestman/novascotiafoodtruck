@@ -1,0 +1,298 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin-bottom: 100px;
+}
+
+br {
+  margin-top: 5px;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35pt;
+  font-weight: 700;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35pt;
+  font-weight: 700;
+  color: #1D8DC0;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20pt;
+  font-weight: 400;
+  color: #1D547C;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18pt;
+  font-weight: 400;
+  color: #1D547C;
+}
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 35pt;
+  font-weight: 700;
+  color: #1D8DC0;
+  text-align: center;
+}
+
+p {
+  margin-top: 20px;
+}
+
+hr {
+  display: block;
+  max-width: 80px;
+  left: 0;
+  margin-left: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #1D8DC0;
+}
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+.hero {
+  width: 100%;
+}
+
+.imageHero {
+  position: relative;
+}
+
+.hoverTxt {
+  position: absolute;
+  z-index: 10;
+}
+
+.bgDark {
+  background-color: #1D547C;
+}
+
+.bgLight {
+  background-color: #1D8DC0;
+}
+
+.bgWhite {
+  background-color: #fff;
+}
+
+.whoWe {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.truckOptions {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.howItWorks {
+  padding: 20px;
+}
+
+.howItWorks hr {
+  display: block;
+  max-width: 80px;
+  margin: 0 auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #1D8DC0;
+}
+
+.itWorks {
+  text-align: center;
+}
+
+.step {
+  padding: 40px;
+  display: inline-block;
+}
+
+.step img {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.butWidth {
+  padding: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.foodOptions {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.foodOptions p {
+  color: #1D547C;
+}
+
+.conForm {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form p {
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  padding: 40px;
+}
+
+footer p {
+  margin-top: 0px;
+  display: inline-block;
+}
+
+footer .socialMedia {
+  margin-top: 0;
+}
+
+footer .socialMedia li {
+  text-decoration: none;
+  color: #ffffff;
+  display: inline;
+  padding-left: 10px;
+}
+
+footer .socialMedia img {
+  width: 40px;
+}
+
+.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines li {
+  display: inline;
+}
+
+.menu-hover-lines li a {
+  padding: 0.75rem 0;
+  color: rgba(29, 84, 124, 0.5);
+  position: relative;
+  margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active > a {
+  background-color: transparent;
+}
+
+.menu-hover-lines a:before,
+.menu-hover-lines a::after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+  background-color: #1D8DC0;
+  width: 0;
+}
+
+.menu-hover-lines a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines a:hover,
+.menu-hover-lines li.active > a {
+  color: #1D547C;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before,
+.menu-hover-lines .active a::before,
+.menu-hover-lines a:hover::after,
+.menu-hover-lines .active a::after {
+  width: 100%;
+}
+
+.socialMedia {
+  margin-top: 40px;
+}
+
+.socialMedia li {
+  text-decoration: none;
+  color: #1D8DC0;
+  display: inline;
+  padding-left: 10px;
+}
+
+.socialMedia img {
+  width: 40px;
+}
+
+.logo img {
+  width: 150px;
+  margin-left: 75px;
+}
+
+.mainNav {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=master.css.map */
